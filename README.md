@@ -15,12 +15,12 @@ Hindcast Simulations:
    * MO rose suites mi-bb055: initialised at 2003-01-01 from a spinup dump. Spinup (mi-ba451) initialised from RCM dump at 1997-01-01. RCM initialised at 1992-1-1 from reconfiguration, which uses offline JULES run to create estimate of soil moisture state. 
 
 pcControl Simulations:
-•	MO rose suite mi-ba488: initialised at 1998-01-01 from a spinup dump. Spinup initialised from PD GCM dump (MO rose suite u-ab261) at 1997-01-01. 
-•	MO rose suite mi-bb069: initialised at 2003-01-01 from a spinup dump. Spinup initialised from PD GCM dump (MO rose suite u-ab261) at 2002-01-01. 
+   * MO rose suite mi-ba488: initialised at 1998-01-01 from a spinup dump. Spinup initialised from PD GCM dump (MO rose suite u-ab261) at 1997-01-01. 
+   * MO rose suite mi-bb069: initialised at 2003-01-01 from a spinup dump. Spinup initialised from PD GCM dump (MO rose suite u-ab261) at 2002-01-01. 
 
 Future Simulations: 
-•	MO rose suite mi-ba489:  initialised at 1998-01-01 from a spinup dump. Spinup initialised from future GCM dump (MO rose suite u-ab268) at 1997-01-01.
-•	MO rose suite mi-bb070:  initialised at 2003-01-01 from a spinup dump. Spinup initialised from future GCM dump (MO rose suite u-ab268) at 2002-01-01.
+   * MO rose suite mi-ba489:  initialised at 1998-01-01 from a spinup dump. Spinup initialised from future GCM dump (MO rose suite u-ab268) at 1997-01-01.
+   * MO rose suite mi-bb070:  initialised at 2003-01-01 from a spinup dump. Spinup initialised from future GCM dump (MO rose suite u-ab268) at 2002-01-01.
 
 ## VARIANT-ID IN CSSP BRAZIL CPRCM METADATA
 CSSP Brazil follows a similar variant-id to CMIP6 netCDF files, with the format r1i1p1f1, where the letters and numbers express the following:
