@@ -24,21 +24,31 @@ Future Simulations:
 
 ## VARIANT-ID IN CSSP BRAZIL CPRCM METADATA
 CSSP Brazil follows a similar variant-id to CMIP6 netCDF files, with the format r1i1p1f1, where the letters and numbers express the following:
+
 r: realisation (i.e. ensemble member)
+
 i: initialisation method
+
 p: physics
+
 f: forcing
 
-Realisation:
+### Realisation:
 1: First ensemble member 
+
 2: Not used
-Initialisation:
+
+### Initialisation:
 1: Initial conditions and boundary conditions taken from a prior simulation: HadGEM3-GC3.1-N512. 
+
 2: Initial conditions and boundary conditions taken from a prior simulation: HadREM3-GC3.1-N512. 
+
 i1 is used by pdControl and Future CPRCM simulations. The lateral boundary condition source is the HadGEM3-GC3.1-N512 GCM, dynamically downscaled to convection permitting scale (resolution ~ 4.5 km) using one-step nesting. 
 i2 is used by the Hindcast CPRCM simulation. The lateral boundary condition source is the ERA Interim dataset, dynamically downscaled to convection permitting scale (~ 4.5 km grid spacing) using two step nesting. The CPRCM simulation at 4.5km is nested in 25 km HadREM3-GC3.1-N512, which in turn is nested in ERA-Interim. 
-Physics:
+
+### Physics:
 1: tbc 
-Forcing:
+
+### Forcing:
 1: tbc pdControl /hindcast forcing
 2: tbc future forcing
